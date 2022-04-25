@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "author": "kuke",
   "buildOptions": {
     "name": "wdm-lerna-demo-ui",
     "formats": [
@@ -15,5 +16,6 @@
   "dependencies": {
     "@kukefe/wdm-lerna-demo-core": "^1.0.0",
     "lodash": "^4.17.21"
-  }
+  },
+  "gitHead": "5558d6649771e3969c8946a974634ea94290dd6c"
 }
