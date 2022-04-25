@@ -59,3 +59,22 @@ lerna add wdm-lerna-demo-core --scope=wdm-lerna-demo-ui
 ```
 import myCore from 'wdm-lerna-demo-core'
 ```
+
+# 如果你想要移除一个被所有包依赖的公共包，可以这样操作
+
+```
+lerna exec -- yarn remove lodash
+# lerna exec -- yarn remove lodash --network-timeout=1000000 # 如果提示网络有问题用此命令
+
+lerna exec -- <command> [..args] 表示在所有包中执行该 command.
+```
+
+# lerna publish
+
+```
+让你选择如何更新版本，是 major、minor 或是 beta。
+更新版本到有改动的包，即修改 package.json 的 version。
+如果有某些包依赖刚才更新的包，自动更新 dependencies 的版本号。
+把改动提交到 git 并生成以版本号命名的 git commit 和 tag。
+发布刚才改动的并且是 public 的包到 npm。
+```
