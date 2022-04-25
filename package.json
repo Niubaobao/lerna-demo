@@ -1,13 +1,13 @@
 {
   "name": "lerna-demo",
   "version": "1.0.0",
-  "private": false,
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
     "build": "node scripts/build.js"
   },
+  "private": false,
   "publishConfig": {
     "access": "public"
   },
