@@ -2,7 +2,7 @@
   "name": "@kukefe/wdm-lerna-demo-ui",
   "version": "1.0.3",
   "main": "index.js",
-  "license": "MIT",
+  "license": "ISC",
   "author": "kuke",
   "buildOptions": {
     "name": "wdm-lerna-demo-ui",
@@ -17,5 +17,5 @@
     "@kukefe/wdm-lerna-demo-core": "^1.0.3",
     "lodash": "^4.17.21"
   },
-  "gitHead": "dabbe54d78dd3f492f06bfb3bc4cdf7581212500"
+  "gitHead": "2b7f02a4ca8091558ba7b4ff566d435384f925d9"
 }
