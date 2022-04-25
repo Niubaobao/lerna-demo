@@ -1,6 +1,6 @@
 {
   "name": "@kukefe/wdm-lerna-demo-core",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "main": "index.js",
   "license": "ISC",
   "author": "kuke",
