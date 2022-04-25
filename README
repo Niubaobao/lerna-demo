@@ -1,0 +1,61 @@
+# 开启 yarn workspaces：
+
+```
+yarn config set workspaces-experimental true
+```
+
+# 创建项目
+
+```
+mkdir lerna-demo && cd lerna-demo
+yarn init
+```
+
+# lerna 初始化:
+
+```
+lerna init
+```
+
+# 配置根目录下的 lerna.json 使用 yarn 客户端并使用 workspaces：
+
+```
+// lerna.json
+{
+  "packages": [
+    "packages/*"
+  ],
+  "version": "0.0.0",
++ "npmClient": "yarn",
++ "useWorkspaces": true
+}
+```
+
+# package.json 设置 private 为 true，防止根目录被发布到 npm，还要设置 workspaces 目录：
+
+```
+// package.json
+{
+  "name": "lerna-demo",
++ "private": true,
++ "workspaces": [
++    "packages/*"
++ ]
+}
+```
+
+# 如果是所有的包公用的依赖，可以像这样安装：
+
+```
+lerna add lodash
+```
+
+# 此示例中我们设定 ui 依赖 core：
+
+```
+lerna add wdm-lerna-demo-core --scope=wdm-lerna-demo-ui
+```
+
+```
+import myCore from 'wdm-lerna-demo-core'
+```

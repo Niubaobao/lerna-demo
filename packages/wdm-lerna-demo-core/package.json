@@ -1,0 +1,19 @@
+{
+  "name": "@kukefe/wdm-lerna-demo-core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "buildOptions": {
+    "name": "wdm-lerna-demo-core",
+    "formats": [
+      "esm",
+      "cjs",
+      "umd"
+    ]
+  },
+  "module": "dist/wdm-lerna-demo-core.esm.js",
+  "unpkg": "dist/wdm-lerna-demo-core.js",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
