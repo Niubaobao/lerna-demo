@@ -3,8 +3,12 @@
   "command": {
     "bootstrap": {
       "hoist": true
+    },
+    "version": {
+      "conventionalCommits": true
     }
   },
+  "ignoreChanges": ["**/*.md"],
   "version": "2.1.3",
   "npmClient": "npm",
   "useWorkspaces": true
