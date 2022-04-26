@@ -1,6 +1,6 @@
 {
   "name": "@kukefe/wdm-lerna-demo-ui",
-  "version": "2.0.1",
+  "version": "2.1.1",
   "main": "index.js",
   "license": "ISC",
   "author": "kuke",
@@ -16,6 +16,7 @@
     ]
   },
   "module": "dist/wdm-lerna-demo-ui.esm.js",
+  "umd:main": "dist/wdm-lerna-demo-ui.umd.min.js",
   "unpkg": "dist/wdm-lerna-demo-ui.js",
   "dependencies": {
     "@kukefe/wdm-lerna-demo-core": "^2.0.1",

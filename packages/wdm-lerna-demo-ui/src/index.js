@@ -1,5 +1,5 @@
 import str from "wdm-lerna-demo-core";
-import * as STR from "./core";
+import * as STR from "./core/core";
 
 const h5Js = {
   STR,
@@ -7,7 +7,3 @@ const h5Js = {
 };
 
 export default h5Js;
-
-export const add = (a, b) => {
-  return a + b;
-};
