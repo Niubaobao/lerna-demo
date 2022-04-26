@@ -1,7 +1,7 @@
 {
   "name": "@kukefe/wdm-lerna-demo-ui",
   "version": "2.1.0",
-  "main": "index.js",
+  "main": "dist/wdm-lerna-demo-ui.js",
   "license": "ISC",
   "author": "kuke",
   "private": false,
@@ -12,7 +12,8 @@
     "name": "wdm-lerna-demo-ui",
     "formats": [
       "esm",
-      "cjs"
+      "cjs",
+      "umd"
     ]
   },
   "module": "dist/wdm-lerna-demo-ui.esm.js",
