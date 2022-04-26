@@ -78,3 +78,17 @@ lerna exec -- <command> [..args] 表示在所有包中执行该 command.
 把改动提交到 git 并生成以版本号命名的 git commit 和 tag。
 发布刚才改动的并且是 public 的包到 npm。
 ```
+
+
+
+# 安装依赖
+```
+npm install lodash -r --filter @MyVue/shared
+
+-r表示在workspace工作区执行命令，--filter xxx 表示指定在哪个包下执行。
+```
+
+
+
+
+# https://wangtunan.github.io/blog/vueNextAnalysis/introduction/
