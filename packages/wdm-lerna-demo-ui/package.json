@@ -1,6 +1,6 @@
 {
   "name": "@kukefe/wdm-lerna-demo-ui",
-  "version": "2.1.1",
+  "version": "2.1.0",
   "main": "index.js",
   "license": "ISC",
   "author": "kuke",
