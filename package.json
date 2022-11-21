@@ -1,5 +1,5 @@
 {
-  "name": "lerna-demo",
+  "name": "{{name}}",
   "version": "1.0.0",
   "workspaces": [
     "packages/*"
@@ -29,7 +29,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "description": "test lerna",
+  "description": "{{description}}",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
